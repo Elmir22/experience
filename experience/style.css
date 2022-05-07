@@ -1,5 +1,14 @@
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
-/*# sourceMappingURL=style.css.map */
+body .imgbox {
+  overflow: hidden;
+}
+body .imgbox img {
+  width: 100%;
+}
+
+section {
+  padding: 50px 0;
+}/*# sourceMappingURL=style.css.map */
