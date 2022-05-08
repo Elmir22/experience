@@ -1,37 +1,24 @@
 #demo
-    .minibox
-        margin-top: 200px
-        margin-right: 10px
-        display: inline-block
-        width: 100px
-        height: 100px
-        border: 2px solid #79c418
-        border-radius: 1px
-        &:hover
-            border: 2px solid #0e0e0e
-            border-radius: 30px
+    .box
+        background: url(https://picsum.photos/800/1000)
+        background-position: center center
+        background-repeat: no-repeat
+        background-size: cover
+        display: flex
+        .minibox
+            margin-right: 10px
             width: 100px
-            transform: skewX(15deg)
+            height: 100px
+            border: 2px solid #79c418
+            border-radius: 1px
+            &:hover
+                border: 2px solid #0e0e0e
+                border-radius: 30px
     @media screen and ( max-width:500px  )
         .minibox
             border: 5px solid #b537c0
             width: 300px
-            height: 300px 
+            height: 300px
     .bgc
         background-color: red
         transform: skewX(15 deg)
-    textarea
-        border: 2px solid red 
-        background-color: #b49797
-        &:hover
-            transform: skewX(15deg)
-            border: 5px solid black
-menu
-    display: flex
-    justify-content: space-between
-    background-color: red
-    position: fixed
-    z-index: 1
-    a
-        color: black
-

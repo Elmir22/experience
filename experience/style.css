@@ -13,20 +13,23 @@ section {
   padding: 50px 0;
 }
 
-#demo .minibox {
-  margin-top: 200px;
+#demo .box {
+  background: url(https://picsum.photos/800/1000);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+#demo .box .minibox {
   margin-right: 10px;
-  display: inline-block;
   width: 100px;
   height: 100px;
   border: 2px solid #79c418;
   border-radius: 1px;
 }
-#demo .minibox:hover {
+#demo .box .minibox:hover {
   border: 2px solid #0e0e0e;
   border-radius: 30px;
-  width: 100px;
-  transform: skewX(15deg);
 }
 @media screen and (max-width: 500px) {
   #demo .minibox {
@@ -38,23 +41,4 @@ section {
 #demo .bgc {
   background-color: red;
   transform: skewX(15 deg);
-}
-#demo textarea {
-  border: 2px solid red;
-  background-color: #b49797;
-}
-#demo textarea:hover {
-  transform: skewX(15deg);
-  border: 5px solid black;
-}
-
-menu {
-  display: flex;
-  justify-content: space-between;
-  background-color: red;
-  position: fixed;
-  z-index: 1;
-}
-menu a {
-  color: black;
 }/*# sourceMappingURL=style.css.map */
