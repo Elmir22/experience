@@ -13,32 +13,16 @@ section {
   padding: 50px 0;
 }
 
-#demo .box {
-  background: url(https://picsum.photos/800/1000);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
+#demo .box h1 {
+  color: #a31111;
+  font-size: 30px;
+  font-weight: 700;
 }
-#demo .box .minibox {
-  margin-right: 10px;
-  width: 100px;
-  height: 100px;
-  border: 2px solid #79c418;
-  border-radius: 1px;
+#demo .box input {
+  width: 200px;
+  border: 2px solid #118a0d;
 }
-#demo .box .minibox:hover {
-  border: 2px solid #0e0e0e;
-  border-radius: 30px;
-}
-@media screen and (max-width: 500px) {
-  #demo .minibox {
-    border: 5px solid #b537c0;
-    width: 300px;
-    height: 300px;
-  }
-}
-#demo .bgc {
-  background-color: red;
-  transform: skewX(15 deg);
+#demo .btn {
+  border-radius: 10px;
+  border: 1px solid red;
 }/*# sourceMappingURL=style.css.map */
