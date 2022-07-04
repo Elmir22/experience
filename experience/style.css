@@ -13,16 +13,34 @@ section {
   padding: 50px 0;
 }
 
-#demo .box h1 {
+#demo .box {
+  display: flex;
+}
+#demo .box h3 {
+  padding: 5px;
+  margin: 10px 10px;
+  font-size: 24px;
+  font-weight: 600;
+  border: 1px solid #000000;
+  border-radius: 20px;
+}
+#demo h1 {
   color: #a31111;
   font-size: 30px;
   font-weight: 700;
+  margin-bottom: 100px;
 }
-#demo .box input {
-  width: 200px;
-  border: 2px solid #118a0d;
+#demo input {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 100px 0 20px;
+  width: 300px;
+  border: 4px solid orange;
 }
 #demo .btn {
+  padding: 5px 15px;
+  color: #fff;
   border-radius: 10px;
-  border: 1px solid red;
+  border: 1px solid #000000;
+  background-color: #000000;
 }/*# sourceMappingURL=style.css.map */
